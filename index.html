@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alegria & Cia — Home</title>
+  <link rel="stylesheet" href="/assets/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body class="page-home">
+  <!--HEADER GLOBAL-->
+  <header class="header">
+    <div class="container header__wrap">
+      <a class="brand" href="/"><img src="/assets/imgs/logo.png" alt="Alegria & Cia" class="brand__img" /></a>
+
+      <nav class="nav">
+        <a href="/index.html" class="active">HOME</a>
+        <a href="/pages/blog.html">BLOG</a>
+        <a href="/pages/preco.html">PREÇOS</a>
+        <a href="/pages/contato.html">CONTATO</a>
+      </nav>
+
+      <!-- AGENDAR abre e-mail com assunto e corpo padrão -->
+      <a
+        class="btn btn--primary"
+        href="mailto:alegriaecia@contato.com.br?subject=Agendamento%20-%20Site&body=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20festa.%20Vim%20da%20Home.%0A%0ANome%3A%20%0ATelefone%3A%20%0AData%3A%20%0AHor%C3%A1rio%3A%20%0AN%C2%BA%20de%20convidados%3A%20%0ATema%3A%20"
+      >AGENDAR</a>
+
+      <button class="hamburger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO --> 
+  <main class="hero">
+    <div class="container hero__grid">
+      <div class="hero__text">
+        <h1>
+          A Festa Perfeita para Seu Filho Existe! E por Muito Menos do que Imagina:
+          São Mais de 3.000 Festas Infantil dos Sonhos <span class="txt-highlight">Realizadas!</span>
+        </h1>
+        <p>
+          Tenha uma festa exclusiva, com Buffet completo, Recreadores preparados, Diversão Garantida e
+          tranquilidade para os pais. Cuidamos de tudo, do início ao fim da Festa!
+        </p>
+
+        <!-- Botão da hero também abre e-mail com a mesma mensagem -->
+        <div class="hero__actions">
+          <a
+            class="btn btn--primary btn--lg"
+            href="mailto:alegriaecia@contato.com.br?subject=Agendamento%20-%20Site&body=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20festa.%20Vim%20da%20Home.%0A%0ANome%3A%20%0ATelefone%3A%20%0AData%3A%20%0AHor%C3%A1rio%3A%20%0AN%C2%BA%20de%20convidados%3A%20%0ATema%3A%20"
+          >📲 Reserve Sua Festa</a>
+        </div>
+      </div>
+
+      <figure class="hero__media">
+        <img src="/assets/imgs/home.webp" alt="Criança em festa" />
+      </figure>
+    </div>
+  </main>
+
+  <!-- DIVISOR ONDULADO -->
+  <div class="wave-divider" aria-hidden="true">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" preserveAspectRatio="none">
+      <path fill="#1b0c3d" d="M0,256L60,240C120,224,240,192,360,181.3C480,171,600,181,720,186.7C840,192,960,192,1080,186.7C1200,181,1320,171,1380,165.3L1440,160L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path>
+    </svg>
+  </div>
+
+  <!-- BOAS-VINDAS + VÍDEO -->
+  <section class="welcome-section">
+    <div class="container welcome-content">
+      <h2>Seja Muito Bem-Vindo ao Alegria & Cia</h2>
+      <p>O Alegria & Cia perfeito para sua Festa!</p>
+      <p>Assista ao nosso vídeo de apresentação</p>
+
+      <div class="video-wrapper">
+        <iframe width="560" height="315"
+          src="https://www.youtube.com/embed/usguQk-sjc0"
+          title="Alegria & Cia — Espaço de Festa Infantil"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen>
+        </iframe>
+      </div>
+
+      <h3>FESTAS COMUNS NÃO CRIAM MOMENTOS INCRÍVEIS!</h3>
+      <h4>CONFIRA PARA QUEM ESSA FESTA FOI PENSADA</h4>
+    </div>
+  </section>
+
+  <!-- GALERIA DE FOTOS -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <h2>Momentos <span class="txt-highlight">Incríveis</span></h2>
+      <div class="gallery-grid">
+        <div class="card"><img src="/assets/imgs/foto1.webp" alt="Foto 1"></div>
+        <div class="card"><img src="/assets/imgs/foto2.webp" alt="Foto 2"></div>
+        <div class="card"><img src="/assets/imgs/foto3.webp" alt="Foto 3"></div>
+        <div class="card"><img src="/assets/imgs/foto4.webp" alt="Foto 4"></div>
+        <div class="card"><img src="/assets/imgs/foto5.webp" alt="Foto 5"></div>
+        <div class="card"><img src="/assets/imgs/foto6.webp" alt="Foto 6"></div>
+        <div class="card"><img src="/assets/imgs/foto7.webp" alt="Foto 7"></div>
+        <div class="card"><img src="/assets/imgs/foto8.webp" alt="Foto 8"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__wrap">
+      <small>© <span id="year"></span> Alegria & Cia — Todos os direitos reservados.</small>
+      <a class="nav" href="mailto:alegriaecia@contato.com.br">alegriaecia@contato.com.br</a>
+    </div>
+  </footer>
+
+  <script src="/assets/script.js"></script>
+</body>
+</html>

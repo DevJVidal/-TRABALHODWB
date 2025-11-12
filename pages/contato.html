@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contato — Alegria & Cia</title>
+  <link rel="stylesheet" href="/assets/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Ícones Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body class="page-contato">
+  <!-- HEADER GLOBAL -->
+  <header class="header">
+    <div class="container header__wrap">
+      <a href="/" class="brand">
+        <img src="/assets/imgs/logo.png" alt="Logo Alegria & Cia" class="brand__img" />
+      </a>
+
+      <nav class="nav">
+        <a href="/index.html">HOME</a>
+        <a href="/pages/blog.html">BLOG</a>
+        <a href="/pages/preco.html">PREÇOS</a>
+        <a href="/pages/contato.html" class="active">CONTATO</a>
+      </nav>
+
+      <!-- Botão AGENDAR com e-mail automático -->
+      <a
+        class="btn btn--primary"
+        href="mailto:alegriaecia@contato.com.br?subject=Agendamento%20-%20Site&body=Ol%C3%A1%2C%20gostaria%20de%20agendar%20uma%20festa.%20Vim%20da%20p%C3%A1gina%20de%20contato.%0A%0ANome%3A%20%0ATelefone%3A%20%0AData%3A%20%0AHor%C3%A1rio%3A%20%0AN%C2%BA%20de%20convidados%3A%20%0ATema%3A%20"
+      >AGENDAR</a>
+
+      <button class="hamburger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- SEÇÃO DE CONTATO PRINCIPAL -->
+  <section class="container contato__grid" id="form-contato">
+    <div class="contato-info">
+      <h2>Fale <span>Conosco</span></h2>
+      <p>
+        Quer agendar sua festa ou tirar dúvidas?
+        Nossa equipe está pronta para ajudar a tornar o sonho do seu filho realidade!
+      </p>
+
+      <ul>
+        <li>
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Rua das Festas, 123 - Centro</span>
+        </li>
+        <li>
+          <i class="fa-solid fa-phone"></i>
+          <span>(11) 99999-9999</span>
+        </li>
+        <li>
+          <i class="fa-solid fa-envelope"></i>
+          <a href="mailto:alegriaecia@contato.com.br">alegriaecia@contato.com.br</a>
+        </li>
+        <li>
+          <i class="fa-regular fa-clock"></i>
+          <span>Segunda a Sábado — 8h às 18h</span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="contato-form">
+      <form action="#" method="POST" onsubmit="event.preventDefault(); alert('Mensagem enviada!');">
+        <input type="text" name="nome" placeholder="Seu Nome" required>
+        <input type="email" name="email" placeholder="Seu E-mail" required>
+        <textarea name="mensagem" rows="5" placeholder="Sua Mensagem" required></textarea>
+        <button type="submit" class="btn btn--primary btn--block">Enviar Mensagem</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- REDES SOCIAIS FLUTUANTES -->
+  <div class="redes-sociais">
+    <div class="redes-links">
+      <a href="javascript:void(0)" class="btn-principal toggle-menu" aria-label="Menu">
+        <img src="/assets/imgs/logo.png" alt="Logo Alegria & Cia" class="logo-flutuante" />
+      </a>
+
+      <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+        <i class="fa-brands fa-instagram"></i>
+      </a>
+      <a href="https://www.facebook.com/" target="_blank" aria-label="Facebook">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a href="https://www.tiktok.com/" target="_blank" aria-label="TikTok">
+        <i class="fa-brands fa-tiktok"></i>
+      </a>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__wrap">
+      <small>© <span id="year"></span> Alegria & Cia — Todos os direitos reservados.</small>
+      <a class="nav" href="mailto:alegriaecia@contato.com.br">alegriaecia@contato.com.br</a>
+    </div>
+  </footer>
+
+  <script src="/assets/script.js"></script>
+</body>
+</html>

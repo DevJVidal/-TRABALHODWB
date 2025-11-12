@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Preços — Alegria & Cia</title>
+  <link rel="stylesheet" href="/assets/style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body class="page-precos">
+  <!-- =========================
+       HEADER GLOBAL
+  ========================== -->
+  <header class="header">
+    <div class="container header__wrap">
+      <a href="/" class="brand">
+        <img src="/assets/imgs/logo.png" alt="Logo Alegria & Cia" class="brand__img" />
+      </a>
+
+      <nav class="nav">
+        <a href="/index.html">HOME</a>
+        <a href="/pages/blog.html">BLOG</a>
+        <a href="/pages/preco.html" class="active">PREÇOS</a>
+        <a href="/pages/contato.html">CONTATO</a>
+      </nav>
+      <!-- AGENDAR abre e-mail com mensagem padrão (genérica) -->
+      <a
+        class="btn btn--primary"
+        href="mailto:alegriaecia@contato.com.br?subject=Agendamento%20-%20Pre%C3%A7os&body=Ol%C3%A1%2C%20vim%20da%20p%C3%A1gina%20de%20Pre%C3%A7os.%20Quero%20reservar%20um%20plano.%0A%0ANome%3A%20%0AData%20da%20festa%3A%20%0ATelefone%3A%20"
+      >AGENDAR</a>
+
+      <button class="hamburger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- =========================
+       HERO (INTRO)
+  ========================== -->
+  <section class="hero">
+    <div class="container hero__content">
+      <h1>Escolha o Pacote Ideal para a Festa dos Sonhos!</h1>
+      <p>
+        Temos opções completas com buffet, recreação e decoração para todos os estilos e orçamentos.
+        Deixe a diversão com a gente — você só aproveita o momento!
+      </p>
+    </div>
+  </section>
+
+  <!-- =========================
+       LISTA DE PACOTES
+  ========================== -->
+  <section class="pricing container">
+    <!-- Pacote Básico -->
+    <div class="card">
+      <h2>Básico</h2>
+      <p class="price">R$ 799</p>
+      <ul>
+        <li>🎈 Decoração simples (tema base)</li>
+        <li>🍕 Mini buffet (até 20 pessoas)</li>
+        <li>🧑‍🤝‍🧑 1 recreador (2h)</li>
+        <li>📸 20 fotos digitais</li>
+      </ul>
+
+      <!-- Botão abre e-mail já com “quero o Plano Básico” -->
+      <a
+        class="btn btn--outline"
+        href="mailto:alegriaecia@contato.com.br?subject=Agendamento%20-%20Plano%20B%C3%A1sico&body=Ol%C3%A1%2C%20quero%20o%20Plano%20B%C3%A1sico.%0A%0ANome%3A%20%0AData%20da%20festa%3A%20%0ATelefone%3A%20"
+      >Escolher Básico</a>
+    </div>
+
+    <!-- Pacote Completo -->
+    <div class="card destaque">
+      <span class="etiqueta">Mais escolhido</span>
+      <h2>Completo</h2>
+      <p class="price">R$ 1.499</p>
+      <ul>
+        <li>🎈 Decoração completa (tema personalizado)</li>
+        <li>🍕 Buffet completo (até 50 pessoas)</li>
+        <li>🧑‍🤝‍🧑 2 recreadores (4h)</li>
+        <li>📸 60 fotos + 1 vídeo curto</li>
+        <li>🎁 Lembrancinhas padrão</li>
+      </ul>
+
+      <!-- Botão abre e-mail já com “quero o Plano Completo” -->
+      <a
+        class="btn btn--primary"
+        href="mailto:alegriaecia@contato.com.br?subject=Agendamento%20-%20Plano%20Completo&body=Ol%C3%A1%2C%20quero%20o%20Plano%20Completo.%0A%0ANome%3A%20%0AData%20da%20festa%3A%20%0ATelefone%3A%20"
+      >Escolher Completo</a>
+    </div>
+
+    <!-- Pacote Premium -->
+    <div class="card">
+      <h2>Premium</h2>
+      <p class="price">R$ 2.799</p>
+      <ul>
+        <li>🎈 Cenografia premium (tema exclusivo)</li>
+        <li>🍽️ Buffet completo (até 100 pessoas)</li>
+        <li>🧑‍🤝‍🧑 3 recreadores (5h)</li>
+        <li>📸 Fotógrafo e filmagem profissional</li>
+        <li>🎁 Lembrancinhas personalizadas</li>
+        <li>🧁 Bolo temático incluso</li>
+      </ul>
+
+      <!-- Botão abre e-mail já com “quero o Plano Premium” -->
+      <a
+        class="btn btn--outline"
+        href="mailto:alegriaecia@contato.com.br?subject=Agendamento%20-%20Plano%20Premium&body=Ol%C3%A1%2C%20quero%20o%20Plano%20Premium.%0A%0ANome%3A%20%0AData%20da%20festa%3A%20%0ATelefone%3A%20"
+      >Escolher Premium</a>
+    </div>
+  </section>
+
+  <!-- =========================
+       FOOTER GLOBAL
+  ========================== -->
+  <footer class="footer">
+    <div class="container footer__wrap">
+      <small>© <span id="year"></span> Alegria & Cia — Todos os direitos reservados.</small>
+      <a class="nav" href="mailto:alegriaecia@contato.com.br">alegriaecia@contato.com.br</a>
+    </div>
+  </footer>
+
+  <script src="/assets/script.js"></script>
+</body>
+</html>
