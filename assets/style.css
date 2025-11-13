@@ -270,7 +270,7 @@ form button:hover{ background:#009a52; transform:scale(1.02); }
    FOOTER
    =================================================================== */
 /* Rodapé básico com borda superior e texto centralizado. */
-.footer{ background:#001cbd; color:#bbb; text-align:center; padding:25px 0; font-size:.95rem; border-top:1px solid #222; } 
+.footer{ background:#0F111C; color:#bbb; text-align:center; padding:25px 0; font-size:.95rem; border-top:1px solid #222; } 
 .footer p, .footer small{ margin:0; color:#ccc; letter-spacing:.3px; } 
 .footer p span{ color:var(--accent); font-weight:600; } 
 
